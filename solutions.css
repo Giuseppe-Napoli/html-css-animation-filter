@@ -94,37 +94,30 @@
 }
 
 
-/* 10 esercizio */
-.ex-10-icon{
-    animation: giro 1s linear infinite;
+/* esercizio 10 */
+.ex-10-icon {
+  animation: giro 1s linear infinite;
 }
-
-    
 @keyframes giro {
-    0% {
-     transform: rotate(360deg);
-    }
+  0% {
+      transform: rotate(360deg);
+  }
 }
 
-
-/* 11 esercizio */
-.ex-11-icon:hover{
-    animation: giro 2s  alternate;
+/* esercizio 11 */
+.ex-11-icon:hover {
+  animation: mezzo-giro 2s linear;
 }
-
-    
-@keyframes giro {
-    0% {
-     transform: rotate(0deg);
-    }
-    90% {
-     transform: rotate(270deg);
-    }
-    100% {
-     transform: rotate(0deg);
-    }
-}
-
+@keyframes mezzo-giro {
+  0% {
+      transform: rotate(0);
+  }
+  90% {
+      transform: rotate(270deg);
+  }
+  100% {
+      transform: rotate(0);
+  }
 
 /* 12 esercizio */
 .ex-12-button:hover .ex-12-top-white{
@@ -161,7 +154,7 @@
 
 /* 13 esercizio */
 .ex-13-button:hover .ex-13-top-white{
-    animation: giro 3s linear;
+    animation: giro 2s linear;
 }
 
 @keyframes giro {
@@ -192,7 +185,7 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: rotate 3s linear;
+    animation: rotate 2s linear;
 }
 
 @keyframes rotate {
